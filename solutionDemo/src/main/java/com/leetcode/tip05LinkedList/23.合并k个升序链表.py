@@ -69,7 +69,7 @@
 
 import heapq
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def mergeKLists(self, A):    
         ListNode.__lt__ = lambda x, y: x.val < y.val    
         N = 0 if not A else len(A)

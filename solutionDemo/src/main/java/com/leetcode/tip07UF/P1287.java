@@ -1,7 +1,7 @@
 //测试平台 http://poj.org/problem?id=1287
-import java.io.*;
+package com.leetcode.tip07UF;
+
 import java.util.*;
-package
 // your code here
 class SolutionP1287 {
   private long cost = 0;

@@ -62,7 +62,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
+class com.leetcode.tip22DS_.Solution:
     def split(self, head):
         s1 = head
         s2 = head

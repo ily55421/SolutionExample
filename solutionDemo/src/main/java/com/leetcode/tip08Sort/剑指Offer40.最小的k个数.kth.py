@@ -20,7 +20,7 @@
 // 测试平台链接：https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/submissions/
 """
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     # 这里采用类似快排的思想来找一个数组中第k小的元素
     # 这里采用的是三路快排的思路
     def kth(self, a, b, e, k):

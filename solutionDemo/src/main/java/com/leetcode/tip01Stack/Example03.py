@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
   def findRightSmall(self, A):
     if not A or len(A) == 0:
       return []
@@ -32,6 +32,6 @@ class Solution:
 
 
 # 测试代码
-solution = Solution()
+solution = com.leetcode.tip22DS_.Solution()
 assert [1,-1] == solution.findRightSmall([5,4])
 assert [5, 5, 5, 4, 5, -1, -1] ==  solution.findRightSmall([1, 2, 4, 9, 4, 0, 5])

@@ -70,9 +70,12 @@
  * 
  * 
  */
+package com.leetcode.tip10DoublePointer;
+
+import java.util.HashMap;
 
 // @lc code=start
-class Counter extends HashMap<Integer, Integer> {
+class Counter904 extends HashMap<Integer, Integer> {
     public int get(int k) {
         return containsKey(k) ? super.get(k) : 0;
     }
@@ -82,10 +85,10 @@ class Counter extends HashMap<Integer, Integer> {
     }
 }
 
-class Solution {
+class Solution904 {
     public int totalFruit(int[] A) {
         final int N = A == null ? 0 : A.length;
-        Counter H = new Counter();
+        Counter904 H = new Counter904();
 
         int left = -1;
         // 记录最长的子数组的长度

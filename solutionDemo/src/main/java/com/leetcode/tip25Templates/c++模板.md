@@ -4,7 +4,7 @@
 
 ```cpp
 // LeetCode 32
-class Solution {
+class com.leetcode.tip22DS_.Solution {
    public:
     int longestValidParentheses(string s) {
         int ans = 0, start = -1;
@@ -72,7 +72,7 @@ vector<int> findRightSmall(vector<int> &A) {
 
 ```Cpp
 // LeetCode 84
-class Solution {
+class com.leetcode.tip22DS_.Solution {
    public:
     int largestRectangleArea(vector<int>& A) {
         const int N = A.size();
@@ -250,7 +250,7 @@ class MyCircularQueue {
 
 ```Cpp
 // LeetCode 239
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     // 单调队列使用双端队列来实现
     deque<int> Q;
     // 入队的时候，last方向入队，但是入队的时候
@@ -501,7 +501,7 @@ class MyLinkedList {
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     vector<int> postorderTraversal(TreeNode* t) {
         vector<int> ans;
@@ -553,7 +553,7 @@ int __x__ = []() ->int{
     return 1010;
 }();
 
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     vector<int> postorder(Node* root) {
         stack<pair<Node*,int>> s;
@@ -641,7 +641,7 @@ void print(TreeNode *from, TreeNode *to, vector<int> &ans) {
 
     reverse(to, from);
 }
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 
 public:
     vector<int> postorderTraversal(TreeNode* root) {
@@ -685,7 +685,7 @@ public:
  * 如果右子树为空，那么可以省略，写成x(left-tree)
  * 如果为空树，返回""
  */
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     string tree2str(TreeNode* root) {
         if (!root) {
@@ -706,7 +706,7 @@ public:
 ##二叉树添加一层
 
 ```Cpp
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     TreeNode* addOneRow(TreeNode* root, int v, int d) {
         if (!root) {
@@ -761,7 +761,7 @@ public:
 ```Cpp
 // Boundary of Binary Tree
 // https://www.lintcode.com/problem/boundary-of-binary-tree/description
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     /**
      * @param root: a TreeNode
@@ -866,7 +866,7 @@ public:
 
 // 要点：如果p结点有右子树，那么找到这个右子树的最左结点
 // 否则把根到p结点的整个路径记录下来。然后逆序遍历，如果x是y的左子树，那么返回y->val
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     /*
      * @param root: The root of the BST.
@@ -936,7 +936,7 @@ The output is look like this:
   3   1 5  
 */
 
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     /**
      * @param s: a string
@@ -1243,7 +1243,7 @@ int __x__ = []() ->int{
     return 1010;
 }();
 
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     int dist(TreeNode *root, vector<vector<int>> &ans) {
         if (!root) {
             return -1;
@@ -1302,7 +1302,7 @@ struct trs {
     // 这棵树是否有序
     bool seq = false;
 };
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     struct trs mid(TreeNode *root, int &ans) {
         struct trs ret;
         if (!root) {
@@ -1415,7 +1415,7 @@ public:
 // 只能是父结点到子结点
 // 并且要求是必须递增
 // append的时候，就把长度算出来
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     void pre(TreeNode *root, vector<pair<TreeNode*, int>> &path, int &ans) {
         if (!root) {
             return;
@@ -1457,7 +1457,7 @@ public:
  * 思路，就是中序遍历，然后维护一个最长长度为k的区间，新进来的数与头比较abs,如果更小就pop_head
  */
 
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     vector<int> closestKValues(TreeNode* root, double target, int k) {
         list<int> res;
@@ -1508,7 +1508,7 @@ public:
  *   因为x是rvalue的右子树。
  * 3. 那么当x的右子树入栈的时候，此时必然更新rvalue = x,并且依次要求x的右子树必须大于等于rvalue.
  */
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     bool verifyPreorder(vector<int>& preorder) {
         // 这是一个根结点的值
@@ -1545,7 +1545,7 @@ public:
 ```Cpp
 // 思路，首先是因为已经给了前题，就是p和q肯定是出现在这棵子树里面的。
 // 所以用前序遍历就可以了。这个断言一定要成立。所以在一开始，如果前序遍历的时候发现roo == p || root == q所以就直接返回了
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
   TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {    
     if (!root || root == p || root == q) return root;
@@ -1560,7 +1560,7 @@ public:
 ## 二叉树中的最大和路径 
 
 ```Cpp
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     int64_t mps(TreeNode *root, int64_t &ans) {
         if (!root) {
             return 0;
@@ -1626,7 +1626,7 @@ int Size(int i) { return Cnt[Find(i)]; }
 ## 合并排序
 
 ```Cpp
-class Solution {
+class com.leetcode.tip22DS_.Solution {
   void msort(vector<int> &a, int b, int e, vector<int> &t) {
     if (b >= e || b + 1 >= e) {
       return;
@@ -1666,7 +1666,7 @@ public:
 
 ```Cpp
 // LeetCode 75
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     void sortColors(vector<int>& A) {
         const int N = A.size();
@@ -1684,7 +1684,7 @@ public:
 三路切分快排
 
 ```Cpp
-class Solution
+class com.leetcode.tip22DS_.Solution
 {
   // 将数组[b, e)范围的元素进行排序
   void qsort(vector<int> &A, int b, int e) {
@@ -1727,7 +1727,7 @@ public:
 
 ```Cpp
 // LeetCode 75
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     void qsort(vector<int> &A, int b, int e) {
         if (b >= e || b + 1 >= e) {
             return;
@@ -1895,7 +1895,7 @@ int nonOverlapIntervals(vector<vector<int>> &A) {
 
 ```Cpp
 // LeetCode 55
-class Solution {
+class com.leetcode.tip22DS_.Solution {
    public:
     bool canJump(vector<int>& A) {
         const int N = A.size();
@@ -1948,7 +1948,7 @@ void backtrace(int[] A,
 无重复元素的全排列
 
 ```Cpp
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     void backtrack(vector<int> &A, int i, vector<bool> &used, vector<int> &box,
                    vector<vector<int>> &ans) {
         const int N = A.size();
@@ -1997,7 +1997,7 @@ class Solution {
 带重复元素的全排列
 
 ```Cpp
-class Solution
+class com.leetcode.tip22DS_.Solution
 {
   void backtrace(vector<int>& box, int start, vector<vector<int>>& ans)
   {
@@ -2033,7 +2033,7 @@ public:
 无重复元素的子集
 
 ```Cpp
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     void backtrack(vector<int> &A, int start, vector<int> &box,
                    vector<vector<int>> &ans) {
         const int N = A.size();
@@ -2063,7 +2063,7 @@ class Solution {
 有重复元素的子集
 
 ```Cpp
-class Solution
+class com.leetcode.tip22DS_.Solution
 {
   void backtrace(vector<int>& A,
                  int i,     /*第i个人*/
@@ -2198,7 +2198,7 @@ void dfs(A,
 # Dijkstra算法
 
 ```Cpp
-class Solution {
+class com.leetcode.tip22DS_.Solution {
 public:
     int networkDelayTime(vector<vector<int>>& es, int N, int K) {
         vector<vector<pair<int,int>>> G(N+1);

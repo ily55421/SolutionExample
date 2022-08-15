@@ -69,9 +69,13 @@
  * 
  * 
  */
+package com.leetcode.tip11Greedy;
+
+import java.util.Arrays;
+import java.util.Comparator;
 
 // @lc code=start
-class Solution {
+class Solution452 {
     private int nonOverlapIntervals(int[][] A) {
         final int N = A == null ? 0 : A.length;
 

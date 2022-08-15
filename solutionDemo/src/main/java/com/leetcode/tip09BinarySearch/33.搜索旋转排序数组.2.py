@@ -75,7 +75,7 @@
 #
 # 再进行二分
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def search(self, A, x):
 
         N = len(A) if A else 0

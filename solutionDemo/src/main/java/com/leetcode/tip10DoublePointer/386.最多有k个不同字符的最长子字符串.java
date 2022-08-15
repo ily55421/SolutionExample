@@ -17,9 +17,12 @@ O(n) 时间复杂度
 
 https://www.lintcode.com/problem/386/
 */
+package com.leetcode.tip10DoublePointer;
 
 
-class Counter extends HashMap<Character, Integer> {
+import java.util.HashMap;
+
+class Counter386 extends HashMap<Character, Integer> {
     public int get(Character k) {
         return containsKey(k) ? super.get(k) : 0;
     }
@@ -31,14 +34,14 @@ class Counter extends HashMap<Character, Integer> {
         }
     }
 }
-public class Solution {
+ class Solution386{
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         // write your code here
         final int N = s == null ? 0 : s.length();
         int left = -1;
         int ans = 0;
         
-        Counter H = new Counter();
+        Counter386 H = new Counter386();
         
         for (int i = 0; i < N; i++) {
             H.add(s.charAt(i), 1);

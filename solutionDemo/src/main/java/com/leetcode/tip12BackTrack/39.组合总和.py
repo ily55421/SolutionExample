@@ -58,7 +58,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def append(self, box, ans):
         ans.append([])
         for x in box:

@@ -46,8 +46,11 @@
  */
 
 // @lc code=start
+package com.leetcode.tip10DoublePointer;
 
-class Counter extends HashMap<Character, Integer> {
+import java.util.HashMap;
+
+class Counter567f extends HashMap<Character, Integer> {
     public int get(Character k) {
         return containsKey(k) ? super.get(k) : 0;
     }
@@ -60,18 +63,18 @@ class Counter extends HashMap<Character, Integer> {
     }
 }
 
-class Solution {
+class Solution567f {
     public boolean checkInclusion(String A, String B) {
         // B contains A?
         final int blen = B == null ? 0 : B.length();
         final int alen = A == null ? 0 : A.length();
 
-        Counter H = new Counter();
+        Counter567f H = new Counter567f();
         for (int i = 0; i < alen; i++) {
             H.add(A.charAt(i), 1);
         }
 
-        Counter R = new Counter();
+        Counter567f R = new Counter567f();
         int left = -1;
         int equal = 0;
 

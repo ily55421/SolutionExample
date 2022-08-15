@@ -1,4 +1,4 @@
-/*
+package com.leetcode.tip08Sort;/*
  * @lc app=leetcode.cn id=4 lang=java
  *
  * [4] 寻找两个正序数组的中位数
@@ -69,17 +69,24 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution4 {
+  /**
+   * 查找正序数组的中位数
+   * @param A
+   * @param B
+   * @return
+   */
   public double findMedianSortedArrays(int[] A, int[] B) {
     final int len = A.length + B.length, alen = A.length, blen = B.length;
     int i = 0, j = 0;
     if (len == 0) {
       return 0;
     }
-
+    //获取中位数
     int k = (len - 1) >> 1;
-
+    //
     while (k > 0) {
+      //继续求中位数
       final int p = (k - 1) >> 1;
       if (j + p >= blen || (i + p < alen && A[i + p] < B[j + p])) {
         i += p + 1;

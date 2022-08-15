@@ -53,9 +53,9 @@
  * 
  * 
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution33_1 {
     public int search(int[] A, int x) {
         final int N = A == null ? 0 : A.length;
         int l = 0, r = N;

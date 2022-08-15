@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # https://www.acwing.com/problem/content/65/
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def findEqualRange(self, A):
         if not A or len(A) == 0:
             return -1

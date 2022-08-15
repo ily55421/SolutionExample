@@ -71,9 +71,10 @@
  *
  *
  */
-
+package com.leetcode.tip08Sort;
 // @lc code=start
-class Solution {
+
+class Solution75 {
   private void msort(int[] a, int b, int e, int t[]) {
     // empty range
     if (b >= e) {

@@ -38,11 +38,14 @@
  * 
  * 
  */
+package com.leetcode.tip11Greedy;
+
+import java.util.List;
 
 // @lc code=start
-class Solution {
+class Solution763 {
     public List<Integer> partitionLabels(String S) {
-
+        return null;
     }
 }
 // @lc code=end

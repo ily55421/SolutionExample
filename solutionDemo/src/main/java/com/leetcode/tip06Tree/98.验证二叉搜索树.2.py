@@ -63,7 +63,7 @@ class Node(object):
         self.l = l
         self.r = r
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def isValidBST(self, root):
         """
         :type root: TreeNode

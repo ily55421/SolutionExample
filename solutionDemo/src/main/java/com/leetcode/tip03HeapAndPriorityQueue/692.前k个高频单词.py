@@ -60,7 +60,7 @@
 # @lc code=start
 
 import heapq
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def topKFrequent(self, A, k):
         N = 0 if not A else len(A)
 

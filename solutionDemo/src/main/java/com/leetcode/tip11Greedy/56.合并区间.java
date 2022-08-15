@@ -44,9 +44,15 @@
  * 
  * 
  */
+package com.leetcode.tip11Greedy;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 // @lc code=start
-class Solution {
+class Solution56 {
     public int[][] merge(int[][] intervals) {
         if (intervals == null || intervals.length == 0) {
             return intervals;

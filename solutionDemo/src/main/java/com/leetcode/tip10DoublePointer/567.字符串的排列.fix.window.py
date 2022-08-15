@@ -47,7 +47,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def checkInclusion(self, s1, s2):
         """
         :type s1: str

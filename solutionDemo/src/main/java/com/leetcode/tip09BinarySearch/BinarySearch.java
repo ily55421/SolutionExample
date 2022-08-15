@@ -1,6 +1,6 @@
+package com.leetcode.tip09BinarySearch;
 public class BinarySearch {
   private boolean binarySearch(int[] A, int target) {
-    bool binary_search(int[] A, int target) {
       if (A == null || A.length == 0) {
         return false;
       }
@@ -17,7 +17,6 @@ public class BinarySearch {
         }
       }
       return false;
-    }
   }
   public static void main(String[] args) {}
 }

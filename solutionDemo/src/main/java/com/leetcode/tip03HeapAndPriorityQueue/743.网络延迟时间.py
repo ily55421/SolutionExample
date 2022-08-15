@@ -73,7 +73,7 @@ import heapq
 # push
 # heapq.heappush(heap, cur.next)
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def networkDelayTime(self, times, N, k):
         """
         :type times: List[List[int]]

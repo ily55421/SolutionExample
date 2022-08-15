@@ -3,7 +3,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def findMiddleNode(self, head):
         # 找到链表的中点
         s1 = head

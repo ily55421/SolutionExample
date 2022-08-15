@@ -72,7 +72,7 @@ class UF(object):
     def Count(self):
         return self.count
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def solve(self, A):
         if not A or not A[0]:
             return

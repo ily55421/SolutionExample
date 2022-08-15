@@ -17,8 +17,9 @@
 0 <= arr[i] <= 10000
 
 */
+package com.leetcode.tip08Sort;
 // 测试平台链接：https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/submissions/
-class Solution {
+class Solutionj40 {
     private int kth(int[] a, int b, int e, int k) {
         if (b >=e ) {
             return 0;

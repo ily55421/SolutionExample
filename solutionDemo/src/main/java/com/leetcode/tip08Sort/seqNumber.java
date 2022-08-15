@@ -1,5 +1,6 @@
+package com.leetcode.tip08Sort;
 // 顺序对
-class Solution {
+class seqNumber {
   private int cnt = 0;
 
   private void msort(int[] a, int b, int e, int[] t) {

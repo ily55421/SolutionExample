@@ -44,12 +44,13 @@
  * 
  * 
  */
+package com.leetcode.tip10DoublePointer;
 
 import java.util.*;
 
 // @lc code=start
 
-class Solution {
+class Solution567 {
     public boolean checkInclusion(String A, String B) {
         // B contains A?
         final int blen = B == null ? 0 : B.length();

@@ -1,4 +1,7 @@
+package com.leetcode.tip12BackTrack;
+
 import java.util.ArrayList;
+import java.util.List;
 
 /*
  * @lc app=leetcode.cn id=17 lang=java
@@ -56,7 +59,7 @@ import java.util.ArrayList;
  */
 
 // @lc code=start
-class Solution {
+class Solution17 {
     final String[] ds = new String[] { //
             "", // 0
             "", // 1

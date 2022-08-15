@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
   def isValid(self, s):
     if not s or len(s) == 0:
       return True
@@ -19,7 +19,7 @@ class Solution:
         return False
     return len(t) == 0
 
-solution = Solution()
+solution = com.leetcode.tip22DS_.Solution()
 
 assert solution.isValid("")
 assert not solution.isValid("(")

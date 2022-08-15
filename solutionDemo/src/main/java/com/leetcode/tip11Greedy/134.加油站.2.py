@@ -63,7 +63,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def getMinRange(self, G, C):
         N = 0 if not G else len(G)
 

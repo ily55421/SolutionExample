@@ -28,9 +28,9 @@
  * 
  * 
  */
-
+package com.leetcode.tip08Sort;
 // @lc code=start
-class Solution {
+class Solution283 {
     public void moveZeroes(int[] A) {
         int l = 0, i = 0;
         while (i < A.length) {

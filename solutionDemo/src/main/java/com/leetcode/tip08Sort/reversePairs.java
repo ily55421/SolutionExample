@@ -3,8 +3,8 @@
 // https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/submissions/
 // https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13
 // https://www.lintcode.com/problem/reverse-pairs/description
-
-class Solution {
+package com.leetcode.tip08Sort;
+class reversePairs {
   private int cnt = 0;
 
   private void msort(int[] a, int b, int e, int[] t) {

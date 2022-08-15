@@ -72,7 +72,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def sortColors(self, nums):
         """
         :type nums: List[int]

@@ -68,7 +68,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def isSame(self, a, b):
         if (not a) and (not b):
             return True

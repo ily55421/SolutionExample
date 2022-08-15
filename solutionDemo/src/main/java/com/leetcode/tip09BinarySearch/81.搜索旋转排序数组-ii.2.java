@@ -57,8 +57,8 @@
 // {-1小于, 0等于, 1大于}
 //
 // 再进行二分
-
-class Solution {
+package com.leetcode.tip09BinarySearch;
+class Solution81_2 {
   // 一个数组经过旋转之后，可以分为左边与右边
   // 左边是一个升序
   // 右边也是一个升序

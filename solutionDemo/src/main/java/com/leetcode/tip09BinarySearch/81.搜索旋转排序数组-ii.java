@@ -40,8 +40,8 @@
  */
 
 // @lc code=start
-
-class Solution {
+package com.leetcode.tip09BinarySearch;
+class Solution81_1 {
     // 注意这里按照题目要求，这里需要返回true/false
     public boolean search(int[] A, int x) {
         final int N = A == null ? 0 : A.length;

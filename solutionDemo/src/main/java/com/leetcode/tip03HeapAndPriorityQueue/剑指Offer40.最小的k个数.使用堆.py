@@ -1,6 +1,6 @@
 # 测试平台链接：https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     a = []
     n = 0
 

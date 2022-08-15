@@ -55,7 +55,7 @@
 #         self.val = x
 #         self.next = None
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def middleNode(self, head):
         s1 = head
         s2 = head

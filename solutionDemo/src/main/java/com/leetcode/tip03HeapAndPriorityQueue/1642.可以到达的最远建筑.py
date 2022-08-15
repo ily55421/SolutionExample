@@ -69,7 +69,7 @@
 import Queue
 from Queue import PriorityQueue
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def furthestBuilding(self, heights, bricks, ladders):
         """
         :type heights: List[int]

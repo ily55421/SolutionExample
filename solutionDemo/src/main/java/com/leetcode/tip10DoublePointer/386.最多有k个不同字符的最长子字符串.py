@@ -18,7 +18,7 @@
 # https://www.lintcode.com/problem/386/
 # */
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
     """
     @param s: A string
     @param k: An integer

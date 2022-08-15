@@ -48,7 +48,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def searchBST(self, root, val):
         while root:
             if root.val == val:

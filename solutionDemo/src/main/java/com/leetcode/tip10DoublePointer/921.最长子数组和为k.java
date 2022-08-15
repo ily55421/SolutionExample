@@ -25,10 +25,14 @@ because the subarray [-1, 2] sums to 1 and is the longest.
 */
 
 // 测试链接: https://www.lintcode.com/problem/maximum-size-subarray-sum-equals-k/leaderboard/
+package com.leetcode.tip10DoublePointer;
 
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+ class Solution921 {
     /**
-     * @param nums: an array
+     * @param A: an array
      * @param k: a target value
      * @return: the maximum length of a subarray that sums to k
      */

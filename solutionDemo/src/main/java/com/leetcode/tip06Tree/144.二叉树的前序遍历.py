@@ -38,7 +38,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def preOrder(self, root, ans):
         if root:
             ans.append(root.val)

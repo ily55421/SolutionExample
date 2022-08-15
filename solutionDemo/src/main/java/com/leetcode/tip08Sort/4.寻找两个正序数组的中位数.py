@@ -68,7 +68,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def findMedianSortedArrays(self, A, B):
         """
         :type nums1: List[int]

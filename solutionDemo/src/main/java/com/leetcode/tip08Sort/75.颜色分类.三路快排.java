@@ -70,9 +70,9 @@
  * 
  * 
  */
-
+package com.leetcode.tip08Sort;
 // @lc code=start
-class Solution {
+class Solution75t {
     private void swap(int[] A, int i, int j) {
       int t = A[i];
       A[i] = A[j];

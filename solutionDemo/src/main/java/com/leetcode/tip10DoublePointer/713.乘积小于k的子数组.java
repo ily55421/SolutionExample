@@ -35,9 +35,10 @@
  * 
  * 
  */
+package com.leetcode.tip10DoublePointer;
 
 // @lc code=start
-class Solution {
+class Solution713 {
     public int numSubarrayProductLessThanK(int[] A, int k) {
         final int N = A == null ? 0 : A.length;
 

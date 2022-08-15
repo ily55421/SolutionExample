@@ -1,4 +1,4 @@
-import MyLinkedList.ListNode;
+package com.leetcode.tip08Sort;
 
 /*
  * @lc app=leetcode.cn id=148 lang=java
@@ -69,7 +69,7 @@ import MyLinkedList.ListNode;
  * }
  */
 
-class Solution {
+class Solution148q {
   private ListNode split(ListNode head) {
     ListNode s1 = head, s2 = head, pre = head;
     while (s2 != null && s2.next != null) {

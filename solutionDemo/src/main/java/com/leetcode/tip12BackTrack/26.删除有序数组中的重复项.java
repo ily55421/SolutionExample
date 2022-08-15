@@ -69,9 +69,9 @@
  * 
  * 
  */
-
+package com.leetcode.tip12BackTrack;
 // @lc code=start
-class Solution {
+class Solution26 {
     public int removeDuplicates(int[] A) {
         final int N = A == null ? 0 : A.length;
         if (N <= 1) {
@@ -79,6 +79,7 @@ class Solution {
         }
         int tail = 0;
         for (int i = 1; i < N; i++) {
+            // 比较前后两项
             if (A[i] != A[tail]) {
                 A[++tail] = A[i];
             }

@@ -49,7 +49,7 @@
 #         self.right = None
 import Queue as queue
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def averageOfLevels(self, root):
         """
         :type root: TreeNode

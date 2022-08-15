@@ -24,8 +24,8 @@ Maximum average is (3+3)/2 = 6/2 = 3.00
 给定数组的元素范围是[-10,000, 10,000]。
 */
 // 测试平台： https://www.lintcode.com/problem/maximum-average-subarray/
-
-public class Solution {
+package com.leetcode.tip09BinarySearch;
+ class Solution868 {
     private long maxSumInKLength(int[] A, int k) {
         final int N = A == null ? 0 : A.length;
         long s = 0;
@@ -35,6 +35,7 @@ public class Solution {
             if (i < k - 1) {
                 continue;
             }
+            // 求最大值
             ans = Math.max(ans, s);
             s -= A[i+1-k];
         }

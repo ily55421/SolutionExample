@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
   def findSmallSeq(self, nums, k):
     if not nums or len(nums) == 0 or k <= 0:
       return []
@@ -30,7 +30,7 @@ class Solution:
     return ans
 
 # 测试代码
-solution = Solution()
+solution = com.leetcode.tip22DS_.Solution()
 assert [1,2,3] == solution.findSmallSeq([9,2,4,5,1,2,6,3,100,4], 3)
 assert [1,2] == solution.findSmallSeq([9,2,4,5,1,2,6,3,100,4], 2)
 assert [1] == solution.findSmallSeq([9,2,4,5,1,2,6,3,100,4], 1)

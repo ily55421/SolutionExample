@@ -1,6 +1,6 @@
 // https://www.lintcode.com/problem/617/
-
-public class Solution {
+package com.leetcode.tip09BinarySearch;
+ class Solution617 {
   private int getC(int[] A, double[] B, double m, int k) {
     final int N = A == null ? 0 : A.length;
     for (int i = 0; i < N; i++) {

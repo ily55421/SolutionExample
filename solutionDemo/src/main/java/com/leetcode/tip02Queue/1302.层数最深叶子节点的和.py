@@ -44,7 +44,7 @@
 #         self.left = None
 #         self.right = None
 import Queue as queue
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def deepestLeavesSum(self, root):
         """
         :type root: TreeNode

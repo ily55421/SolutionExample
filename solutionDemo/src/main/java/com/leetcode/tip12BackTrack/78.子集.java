@@ -44,10 +44,13 @@
  * 
  * 
  */
-
+package com.leetcode.tip12BackTrack;
 // @lc code=start
 
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class Solution78 {
     void append(List<Integer> box, List<List<Integer>> all) {
         all.add(new ArrayList<>());
         for (Integer x : box) {

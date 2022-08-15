@@ -39,9 +39,10 @@
  * 
  * 
  */
+package com.leetcode.tip10DoublePointer;
 
 // @lc code=start
-class Solution {
+class Solution424 {
     public int characterReplacement(String s, int k) {
         final int N = s.length();
         int left = -1;

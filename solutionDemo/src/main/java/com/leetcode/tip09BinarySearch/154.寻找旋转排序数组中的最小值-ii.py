@@ -41,7 +41,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def findMin(self, A):
         N = 0 if not A else len(A)
         # 由于要使用A[r-1]

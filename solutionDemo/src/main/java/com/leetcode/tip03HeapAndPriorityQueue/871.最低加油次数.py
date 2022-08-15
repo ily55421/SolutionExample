@@ -71,7 +71,7 @@
 import Queue
 from Queue import PriorityQueue
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def minRefuelStops(self, target, startFuel, stations):
         """
         :type target: int

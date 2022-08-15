@@ -16,7 +16,9 @@
 
 */
 // https://www.acwing.com/problem/content/60/
-class Solution {    
+package com.leetcode.tip10DoublePointer;
+
+class Solution64 {
     private String s = new String();
     private int left = -1;
     private int[] cnt = new int[256];

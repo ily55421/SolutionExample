@@ -61,9 +61,10 @@
  *
  *
  */
+package com.leetcode.tip11Greedy;
 
 // @lc code=start
-class Solution {
+class Solution11 {
   public int maxArea(int[] A) {
     final int N = A == null ? 0 : A.length;
     int ans = 0;

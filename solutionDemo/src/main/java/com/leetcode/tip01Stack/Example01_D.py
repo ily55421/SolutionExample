@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
     def isValid(self, s):
         # 当字符串本来就是空的时候，我们可以快速返回true
         if not s and len(s) == 0:
@@ -25,7 +25,7 @@ class Solution:
         return leftBraceNumber == 0
 
 
-solution = Solution()
+solution = com.leetcode.tip22DS_.Solution()
 
 assert solution.isValid("")
 assert not solution.isValid("(")

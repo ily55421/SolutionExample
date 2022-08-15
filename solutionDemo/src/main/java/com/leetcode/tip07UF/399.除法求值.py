@@ -121,7 +121,7 @@ class UF(object):
       self.C[xpar] = rate * self.C[y] / self.C[x]
       self.F[xpar] = ypar
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def calcEquation(self, ES, VS, QS):
       """
       ES = ["a", "b"]

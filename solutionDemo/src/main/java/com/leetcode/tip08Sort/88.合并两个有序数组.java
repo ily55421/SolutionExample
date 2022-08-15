@@ -47,9 +47,9 @@
  * 
  * 
  */
-
+package com.leetcode.tip08Sort;
 // @lc code=start
-class Solution {
+class Solution88 {
     public void merge(int[] A, int m, int[] B, int n) {
         int tail = n + m - 1;
         int i = m - 1;

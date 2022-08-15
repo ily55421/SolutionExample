@@ -54,7 +54,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def findMin(self, A):
         N = len(A) if A else 0
         l = 0

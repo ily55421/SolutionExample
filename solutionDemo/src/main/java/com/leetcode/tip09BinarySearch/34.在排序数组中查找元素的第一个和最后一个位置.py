@@ -57,7 +57,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def searchRange(self, A, target):
         """
         :type A: List[int]

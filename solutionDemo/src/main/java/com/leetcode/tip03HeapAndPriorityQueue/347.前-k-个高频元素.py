@@ -43,7 +43,7 @@
 
 # @lc code=start
 import heapq
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def topKFrequent(self, A, k):
         count = collections.Counter(A)
         # 注意这里是小堆

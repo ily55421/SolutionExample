@@ -99,7 +99,7 @@
  *     }
  * }
  */
-class Solution {
+class com.leetcode.tip22DS_.Solution {
     public int widthOfBinaryTree(TreeNode root) {
                 // 生成FIFO队列
                 Queue<TreeNode> Q = new LinkedList<>();

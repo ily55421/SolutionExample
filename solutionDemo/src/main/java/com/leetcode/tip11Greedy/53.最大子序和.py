@@ -69,7 +69,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def maxSubArray(self, A):
         N = 0 if not A else len(A)
 

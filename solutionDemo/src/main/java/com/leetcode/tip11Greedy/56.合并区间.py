@@ -46,7 +46,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def merge(self, intervals):
         intervals.sort(key=lambda x: x[0])
 

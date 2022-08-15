@@ -56,7 +56,7 @@
 
 # @lc code=start
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def eraseOverlapIntervals(self, A):
         """
         :type intervals: List[List[int]]

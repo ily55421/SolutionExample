@@ -8,7 +8,7 @@ class Node(object):
         self.right = right
         self.next = next
 """
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def connect(self, root):
         """
         :type root: Node

@@ -91,7 +91,7 @@ class UF(object):
         return self.count
 
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def numIslands(self, A):
         if not A or not A[0]:
             return 0

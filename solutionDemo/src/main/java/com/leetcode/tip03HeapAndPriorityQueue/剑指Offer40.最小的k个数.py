@@ -1,7 +1,7 @@
 import Queue
 from Queue import PriorityQueue
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def getLeastNumbers(self, arr, k):
         """
         :type arr: List[int]

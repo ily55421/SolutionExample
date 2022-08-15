@@ -49,7 +49,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def merge(self, A, m, B, n):
         """
         :type nums1: List[int]

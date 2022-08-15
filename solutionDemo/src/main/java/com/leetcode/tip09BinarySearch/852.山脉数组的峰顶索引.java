@@ -80,9 +80,9 @@
  * 的解决方案吗？
  *
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution852 {
   private int getC(int[] A, int i) {
     if (A[i - 1] < A[i] && A[i] < A[i + 1]) {
       return -1;

@@ -1,5 +1,5 @@
 // 测试平台: https://www.acwing.com/problem/content/65/
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def getNumberSameAsIndex(self, A):
         """
         :type A: List[int]

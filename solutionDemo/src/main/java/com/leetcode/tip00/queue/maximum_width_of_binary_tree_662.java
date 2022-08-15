@@ -114,16 +114,16 @@ public class maximum_width_of_binary_tree_662 {
      */
 
     class Pair {
-        private com.leetcode.queue.TreeNode node;
+        private TreeNode node;
         private int id;
 
-        public Pair(com.leetcode.queue.TreeNode n, int i) {
+        public Pair(TreeNode n, int i) {
             node = n;
             id = i;
         }
     }
 
-    public int widthOfBinaryTree(com.leetcode.queue.TreeNode root) {
+    public int widthOfBinaryTree(TreeNode root) {
         // 生成FIFO队列
         Queue<Pair> Q = new LinkedList<>();
 

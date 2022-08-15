@@ -55,7 +55,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def __init__(self):
         self.pre = None
         self.ans = 2147483647

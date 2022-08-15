@@ -39,12 +39,13 @@
  * 
  * 
  */
+package com.leetcode.tip10DoublePointer;
 
 import java.util.*;
 
 // @lc code=start
 
-class Counter extends HashMap<String, Integer> {
+class Counter30 extends HashMap<String, Integer> {
     public int get(String k) {
         return containsKey(k) ? super.get(k) : 0;
     }
@@ -57,9 +58,9 @@ class Counter extends HashMap<String, Integer> {
     }
 }
 
-class Solution {
+class Solution30 {
     public List<Integer> findSubstring(String s, String[] D) {
-        Counter H = new Counter();
+        Counter30 H = new Counter30();
         int wordLength = 0;
         // 统计字典中单词出现的次数
         for (String w : D) {
@@ -72,7 +73,7 @@ class Solution {
         for (int start = 0; start < wordLength; start++) {
             // 记录当前位置开始切分的单词的
             // 计数器
-            Counter R = new Counter();
+            Counter30 R = new Counter30();
             int left = start - wordLength;
             int equalCount = 0;
             // 有效的区间是(left, i]

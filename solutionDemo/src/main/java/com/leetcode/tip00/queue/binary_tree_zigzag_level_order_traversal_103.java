@@ -64,9 +64,9 @@ public class binary_tree_zigzag_level_order_traversal_103 {
      * }
      * }
      */
-    public List<List<Integer>> zigzagLevelOrder(com.leetcode.queue.TreeNode root) {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         // 生成FIFO队列
-        Queue<com.leetcode.queue.TreeNode> Q = new LinkedList<>();
+        Queue<TreeNode> Q = new LinkedList<>();
 
         // 如果结点不为空，那么加入到FIFO队列
         if (root != null) {
@@ -86,7 +86,7 @@ public class binary_tree_zigzag_level_order_traversal_103 {
             // 遍历当前层的每个结点
             for (int i = 0; i < qSize; i++) {
                 // 当前层前面的结点先出队
-                com.leetcode.queue.TreeNode cur = Q.poll();
+                TreeNode cur = Q.poll();
                 // 把结果存放当于当前层中
                 tmp.add(cur.val);
 

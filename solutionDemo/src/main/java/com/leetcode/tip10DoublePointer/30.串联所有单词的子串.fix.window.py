@@ -53,7 +53,7 @@ class Counter(object):
     def size(self):
         return len(self.H)
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def findSubstring(self, s, D):
         if not s or len(s) == 0 or len(D) == 0:
             return []

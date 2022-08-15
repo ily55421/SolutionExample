@@ -90,7 +90,7 @@ class UF(object):
     def Count(self):
         return self.count
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def findCircleNum(self, G):
         if not G:
             return 0

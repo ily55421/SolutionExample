@@ -56,9 +56,9 @@
  *
  *
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution34 {
   private int lowerBound(int[] A, int target) {
     int l = 0, r = A.length;
     while (l < r) {

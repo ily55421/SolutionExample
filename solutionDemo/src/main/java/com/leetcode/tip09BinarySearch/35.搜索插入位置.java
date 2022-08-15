@@ -42,9 +42,9 @@
  *
  *
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution35 {
   public int searchInsert(int[] A, int target) {
     if (A == null || A.length <= 0) {
       return -1;

@@ -52,9 +52,9 @@
  * 
  * 
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution153 {
     public int findMin(int[] A) {
         final int N = A == null ? 0 : A.length;
         int l = 0, r = N;

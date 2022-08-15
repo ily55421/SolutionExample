@@ -77,7 +77,7 @@
 <p data-nodeid="7999">Step 11. 将队首结点 7 出队，放到当前层结果中。结点 7 没有左右子结点，没有元素要入队。</p>
 <p data-nodeid="8000">结束，返回我们层次遍历的结果。</p>
 <p data-nodeid="8001">【<strong data-nodeid="8586">代码</strong>】现在我们有解题思路，也有运行图，接下来就可以写出以下核心代码（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="8002"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span>&nbsp;<span class="hljs-title">Solution</span>&nbsp;</span>{
+<pre class="lang-java" data-nodeid="8002"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span>&nbsp;<span class="hljs-title">com.leetcode.tip22DS_.Solution</span>&nbsp;</span>{
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">public</span>&nbsp;List&lt;List&lt;Integer&gt;&gt;&nbsp;levelOrder(TreeNode&nbsp;root)&nbsp;{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">//&nbsp;生成FIFO队列</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Queue&lt;TreeNode&gt;&nbsp;Q&nbsp;=&nbsp;<span class="hljs-keyword">new</span>&nbsp;LinkedList&lt;&gt;();
@@ -145,7 +145,7 @@
 <p data-nodeid="8022">Step 5. 将 cur 指向 next。并依次遍历。由于这是最后一层，所以不会再生成 next。</p>
 <p data-nodeid="8023">Step 6. 最后得到层次遍历的结果。</p>
 <p data-nodeid="8024">根据这个思路，写出的代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="8025"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+<pre class="lang-java" data-nodeid="8025"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">com.leetcode.tip22DS_.Solution</span> </span>{
 &nbsp; &nbsp; <span class="hljs-keyword">public</span> List&lt;List&lt;Integer&gt;&gt; levelOrder(TreeNode root) {
 &nbsp; &nbsp; &nbsp; &nbsp; List&lt;List&lt;Integer&gt;&gt; ans = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
 &nbsp; &nbsp; &nbsp; &nbsp; <span class="hljs-comment">// 初始化当前层结点</span>
@@ -609,7 +609,7 @@ Step 4. 将元素 A[0] = 3 出队，由于此时 3 != Q.getFirst()，所以什�
 </blockquote>
 <p data-nodeid="8236">【<strong data-nodeid="9330">画图</strong>】这部分运行过程与“覆盖范围”完全类似。经过前面的分析，现在你可以尝试自己画一下利用单调队列运行的过程图。如果你有什么疑问，可以在评论区留言，我们一起讨论。</p>
 <p data-nodeid="8237">【<strong data-nodeid="9336">代码</strong>】现在我们已经分析清楚算法与数据结构，接下来就可以写代码了，代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="8238"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+<pre class="lang-java" data-nodeid="8238"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">com.leetcode.tip22DS_.Solution</span> </span>{
     <span class="hljs-comment">// 单调队列使用双端队列来实现</span>
     <span class="hljs-keyword">private</span> ArrayDeque&lt;Integer&gt; Q = <span class="hljs-keyword">new</span> ArrayDeque&lt;Integer&gt;();
     <span class="hljs-comment">// 入队的时候，last方向入队，但是入队的时候</span>
@@ -733,7 +733,7 @@ Step 4. 将元素 A[0] = 3 出队，由于此时 3 != Q.getFirst()，所以什�
 <p data-nodeid="8301">接下来我们<strong data-nodeid="9814">重点看一下入队</strong>，由于 1 比队列中的元素都要大，按照单调队列的定义，所以队列中的元素都被清空。</p>
 <p data-nodeid="8302">Step 6. 当 index = 5 时，首先将队列中超出范围的元素出队（只不过此时队首元素和要出队的元素并不相等）。然后 get[5] = 1 + 3 = 4。</p>
 <p data-nodeid="8303">【<strong data-nodeid="9825">代码</strong>】结合上述的讲解，写出代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="8304"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span>&nbsp;<span class="hljs-title">Solution</span>&nbsp;</span>{
+<pre class="lang-java" data-nodeid="8304"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span>&nbsp;<span class="hljs-title">com.leetcode.tip22DS_.Solution</span>&nbsp;</span>{
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-function"><span class="hljs-keyword">public</span>&nbsp;<span class="hljs-keyword">int</span>&nbsp;<span class="hljs-title">maxResult</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[]&nbsp;A,&nbsp;<span class="hljs-keyword">int</span>&nbsp;k)</span>&nbsp;</span>{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">//&nbsp;处理掉各种边界条件!</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span>&nbsp;(A&nbsp;==&nbsp;<span class="hljs-keyword">null</span>&nbsp;||&nbsp;A.length&nbsp;==&nbsp;<span class="hljs-number">0</span>&nbsp;||&nbsp;k&nbsp;&lt;=&nbsp;<span class="hljs-number">0</span>)&nbsp;{
@@ -793,7 +793,7 @@ Step 4. 将元素 A[0] = 3 出队，由于此时 3 != Q.getFirst()，所以什�
 </li>
 </ul>
 <p data-nodeid="8323">基于这种思想，我们可以将这道题换种写法。代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="8324"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+<pre class="lang-java" data-nodeid="8324"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">com.leetcode.tip22DS_.Solution</span> </span>{
     <span class="hljs-comment">// 走到下标index = idx的记录</span>
     <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Node</span> </span>{
         <span class="hljs-comment">// 累计取得的金币!</span>

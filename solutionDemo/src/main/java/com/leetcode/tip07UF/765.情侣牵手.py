@@ -71,7 +71,7 @@ class UF(object):
             self.F[xpar] = ypar
             self.uc += 1
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def minSwapsCouples(self, A):
         if not A or len(A) == 0:
             return 0

@@ -46,9 +46,9 @@
  *
  * 进阶：你能设计一个在 o(n) 时间内解决此问题的算法吗？
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution76 {
     private String ans = new String("");
     private final int SZ = 256;
     private int[] bcnt = new int[SZ];

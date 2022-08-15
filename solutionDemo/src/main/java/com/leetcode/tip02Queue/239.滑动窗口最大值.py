@@ -54,7 +54,7 @@
 
 from collections import deque
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def __init__(self):
         # 单调队列使用双端队列来实现
         self.Q = deque()

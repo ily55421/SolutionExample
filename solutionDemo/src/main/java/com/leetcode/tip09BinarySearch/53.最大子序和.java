@@ -68,9 +68,9 @@
  * 进阶：如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的 分治法 求解。
  *
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution53 {
   public int maxSubArray(int[] B) {
     final int N = B == null ? 0 : B.length;
     // pre表示C[i]的值
@@ -78,7 +78,7 @@ class Solution {
     // pre_min表示C[0] ... C[i-1]的最小值
     // pre - pre_min就是落差，也就是B[]数组的连续子数组和
     long pre_min = 0;
-    long ans = Integer.MIN_VBLUE;
+    long ans = Integer.MIN_VALUE;
 
     for (int i = 0; i < N; i++) {
       // pre表示的是C[i]的值

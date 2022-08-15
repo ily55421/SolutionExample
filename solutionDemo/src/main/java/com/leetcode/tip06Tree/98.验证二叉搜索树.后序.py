@@ -52,7 +52,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     ans = True
     def isValidBST(self, root):
         """

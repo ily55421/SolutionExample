@@ -57,7 +57,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def isSameTree(self, p, q):
         """
         :type p: TreeNode

@@ -40,7 +40,7 @@ class Solution203 {
 
         while (p != null) {
             ListNode back = p.next;
-
+            // 去掉其余节点
             if (p.val != val) {
                 tail.next = p;
                 tail = p;

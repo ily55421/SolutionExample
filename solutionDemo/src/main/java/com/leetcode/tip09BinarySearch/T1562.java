@@ -1,8 +1,10 @@
 // 测试平台: https://nanti.jisuanke.com/t/T1562
-import java.io.*;
-import java.util.*;
+package com.leetcode.tip09BinarySearch;
 
-public class Main {
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class T1562 {
   static private int upperBound(long[] A, int n, long target) {
     int l = 0, r = n;
     while (l < r) {

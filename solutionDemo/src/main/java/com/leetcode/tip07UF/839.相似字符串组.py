@@ -91,7 +91,7 @@ class UF(object):
     def Count(self):
         return self.count
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def numSimilarGroups(self, A):
         
         N = 0 if not A else len(A)

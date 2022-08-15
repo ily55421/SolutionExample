@@ -70,9 +70,9 @@
  */
 
 // @lc code=start
-
+package com.leetcode.tip11Greedy;
 // @lc code=start
-class Solution {
+class Solution918 {
     class Node {
         public int start = 0;
         public int end = 0;

@@ -47,7 +47,7 @@
 # @lc code=start
 import heapq
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def kSmallestPairs(self, A, B, k):
         if not A or not B or k <= 0:
             return []

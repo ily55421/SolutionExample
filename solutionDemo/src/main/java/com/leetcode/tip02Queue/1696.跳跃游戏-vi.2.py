@@ -64,7 +64,7 @@ class Node:
         self.sum = s
         self.idx = i
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def maxResult(self, A, k):
         """
         :type nums: List[int]

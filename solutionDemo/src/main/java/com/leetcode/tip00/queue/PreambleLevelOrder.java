@@ -62,9 +62,9 @@ public class PreambleLevelOrder {
      * @param root
      * @return
      */
-    public List<List<Integer>> levelOrder(com.leetcode.queue.TreeNode root) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
         // 生成FIFO队列
-        Queue<com.leetcode.queue.TreeNode> Q = new LinkedList<>();
+        Queue<TreeNode> Q = new LinkedList<>();
         // 如果结点不为空，那么加入FIFO队列
         if (root != null) {
             Q.offer(root);
@@ -80,7 +80,7 @@ public class PreambleLevelOrder {
             // 遍历当前层的每个结点
             for (int i = 0; i < qSize; i++) {
                 // 当前层前面的结点先出队
-                com.leetcode.queue.TreeNode cur = Q.poll();
+                TreeNode cur = Q.poll();
                 // 把结果存放当于当前层中
                 tmp.add(cur.val);
                 // 把下一层的结点入队，注意入队时需要非空才可以入队。
@@ -115,21 +115,21 @@ public class PreambleLevelOrder {
      * @param root
      * @return
      */
-    public List<List<Integer>> levelOrder2(com.leetcode.queue.TreeNode root) {
+    public List<List<Integer>> levelOrder2(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         // 初始化当前层结点
-        List<com.leetcode.queue.TreeNode> curLevel = new ArrayList<>();
+        List<TreeNode> curLevel = new ArrayList<>();
         // 注意：需要root不空的时候才加到里面。
         if (root != null) {
             curLevel.add(root);
         }
         while (curLevel.size() > 0) {
             // 准备用来存放下一层的结点
-            List<com.leetcode.queue.TreeNode> nextLevel = new ArrayList<>();
+            List<TreeNode> nextLevel = new ArrayList<>();
             // 用来存放当前层的结果
             List<Integer> curResult = new ArrayList<>();
             // 遍历当前层的每个结点
-            for (com.leetcode.queue.TreeNode cur : curLevel) {
+            for (TreeNode cur : curLevel) {
                 // 把当前层的值存放到当前结果里面
                 curResult.add(cur.val);
                 // 生成下一层

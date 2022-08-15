@@ -34,9 +34,9 @@
  * 
  * 
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution209 {
     private int getC(int[] A, int len, int s) {
         long sum = 0;
         final int N = A == null ? 0 : A.length;

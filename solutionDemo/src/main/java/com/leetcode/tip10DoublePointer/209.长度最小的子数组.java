@@ -34,9 +34,10 @@
  *
  *
  */
+package com.leetcode.tip10DoublePointer;
 
 // @lc code=start
-class Solution {
+class Solution209 {
   public int minSubArrayLen(int T, int[] A) {
     final int N = A == null ? 0 : A.length;
     int left = -1;

@@ -1,5 +1,4 @@
-import java.util.Map;
-import java.util.Set;
+package com.leetcode.tip12BackTrack;
 
 /*
  * @lc app=leetcode.cn id=90 lang=java
@@ -35,8 +34,12 @@ import java.util.Set;
  *
  */
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 // @lc code=start
-class Solution
+class Solution99_ii2
 {
   private void append(List<Integer> box, List<List<Integer>> ans)
   {

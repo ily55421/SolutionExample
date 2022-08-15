@@ -49,11 +49,12 @@
  * 
  * 
  */
+package com.leetcode.tip10DoublePointer;
 
 import java.util.*;
 
 // @lc code=start
-class Counter extends HashMap<Integer, Integer> {
+class Counter992m extends HashMap<Integer, Integer> {
     public int get(Integer k) {
         return containsKey(k) ? super.get(k) : 0;
     }
@@ -66,13 +67,13 @@ class Counter extends HashMap<Integer, Integer> {
     }
 }
 
-class Solution {
+class Solution992m {
     private int[] small = null;
     private int[] large = null;
 
     private void buildSmallRange(int[] A, int N, int K) {
         int left = -1;
-        Counter cnt = new Counter();
+        Counter992m cnt = new Counter992m();
 
         for (int i = 0; i < N; i++) {
             cnt.add(A[i], 1);
@@ -95,7 +96,7 @@ class Solution {
 
     private void buildLargeRange(int[] A, int N, int K) {
         int left = -1;
-        Counter cnt = new Counter();
+        Counter992m cnt = new Counter992m();
         for (int i = 0; i < N; i++) {
             cnt.add(A[i], 1);
 

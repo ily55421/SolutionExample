@@ -47,9 +47,10 @@
  * 
  * 
  */
+package com.leetcode.tip11Greedy;
 
 // @lc code=start
-class Solution {
+class Solution55 {
     public boolean canJump(int[] A) {
         final int N = A == null ? 0 : A.length;
         int i = 0;

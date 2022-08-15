@@ -1,5 +1,4 @@
-import MyLinkedList.ListNode;
-
+package com.leetcode.tip08Sort;
 /*
  * @lc app=leetcode.cn id=148 lang=java
  *
@@ -68,7 +67,7 @@ import MyLinkedList.ListNode;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Solution148 {
   // 这里涉及到考点，找到一个链表的中间点
   private ListNode findMiddle(ListNode head) {
     ListNode s1 = head;

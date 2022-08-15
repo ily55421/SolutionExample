@@ -41,8 +41,14 @@
  */
 
 // @lc code=start
+package com.leetcode.tip08Sort;
 
-class Solution {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+class Solution315 {
     private int[] t = null;
     private int[] ans = null;
     private int[] idx = null;

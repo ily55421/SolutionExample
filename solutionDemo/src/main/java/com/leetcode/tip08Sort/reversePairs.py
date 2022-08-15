@@ -1,4 +1,4 @@
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def reversePairs(self, nums):
         """
         :type nums: List[int]

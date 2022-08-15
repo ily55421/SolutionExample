@@ -46,9 +46,10 @@
  *
  * 进阶：你能设计一个在 o(n) 时间内解决此问题的算法吗？
  */
+package com.leetcode.tip10DoublePointer;
 
 // @lc code=start
-class Solution {
+class Solution76 {
     public String minWindow(String A, String B) {
         // A 中包含B中所有字符
         final int alen = A == null ? 0 : A.length();

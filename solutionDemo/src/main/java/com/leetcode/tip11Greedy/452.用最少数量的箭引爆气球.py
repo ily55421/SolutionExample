@@ -71,7 +71,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def nonOverlapIntervals(self, A):
         if not A or len(A) == 0:
             return 0

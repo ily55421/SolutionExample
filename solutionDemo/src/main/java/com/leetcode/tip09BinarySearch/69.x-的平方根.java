@@ -34,9 +34,9 @@
  *
  *
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution69 {
   private int getC(long x, long m) {
     if (m * m < x) {
       return -1;

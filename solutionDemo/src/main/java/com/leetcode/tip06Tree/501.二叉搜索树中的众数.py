@@ -48,7 +48,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def __init__(self):
         self.preCnt = 0
         self.preValue = 0

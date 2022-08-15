@@ -62,9 +62,10 @@
  * 因此，无论怎样，你都不可能绕环路行驶一周。
  *
  */
+package com.leetcode.tip11Greedy;
 
 // @lc code=start
-class Solution {
+class Solution134_2 {
     class Node {
         public int start = 0;
         public int end = 0;
@@ -158,4 +159,3 @@ class Solution {
 }
 // @lc code=end
 
-public 

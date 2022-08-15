@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package com.leetcode.tip12BackTrack;
 
 /*
  * @lc app=leetcode.cn id=784 lang=java
@@ -41,8 +41,11 @@ import java.util.ArrayList;
  * 
  */
 
+import java.util.ArrayList;
+import java.util.List;
+
 // @lc code=start
-class Solution {
+class Solution784 {
     private void backTrace(String s,
                            int i,
                            StringBuilder box,

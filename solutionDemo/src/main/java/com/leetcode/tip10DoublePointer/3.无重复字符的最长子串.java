@@ -1,3 +1,4 @@
+package com.leetcode.tip10DoublePointer;
 /*
  * @lc app=leetcode.cn id=3 lang=java
  *
@@ -60,8 +61,10 @@
  * 
  */
 
+import java.util.Arrays;
+
 // @lc code=start
-class Solution {
+class Solution3 {
     public int lengthOfLongestSubstring(String s) {
         final int N = s == null ? 0 : s.length();
 

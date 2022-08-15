@@ -40,7 +40,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def backTrace(self, s, i, box, ans):
         N = 0 if not s else len(s)
 

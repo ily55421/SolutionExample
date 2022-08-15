@@ -1,4 +1,5 @@
-class Solution {
+package com.leetcode.tip08Sort;
+class mergeSort {
   private void msort(int[] a, int b, int e, int t[]) {
     // 空区间
     if (b >= e) {

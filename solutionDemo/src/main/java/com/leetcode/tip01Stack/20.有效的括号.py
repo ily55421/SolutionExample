@@ -4,7 +4,7 @@
 # [20] 有效的括号
 #
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def isValid(self, s):
         """
         :type s: str

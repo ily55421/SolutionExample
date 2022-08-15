@@ -1,8 +1,10 @@
 // 测试平台: https://nanti.jisuanke.com/t/T1560
-import java.io.*;
-import java.util.*;
+package com.leetcode.tip09BinarySearch;
 
-public class Main {
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class T1560 {
   static private boolean binarySearch(long[] A, long target) {
     if (A == null || A.length == 0) {
       return false;

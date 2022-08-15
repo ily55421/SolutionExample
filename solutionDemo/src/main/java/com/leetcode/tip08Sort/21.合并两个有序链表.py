@@ -12,7 +12,7 @@
 #         self.next = next
 
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def mergeTwoLists(self, l1, l2):
         """
         :type l1: ListNode

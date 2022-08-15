@@ -52,7 +52,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def kClosest(self, A, K):
         N = 0 if not A else len(A)
 

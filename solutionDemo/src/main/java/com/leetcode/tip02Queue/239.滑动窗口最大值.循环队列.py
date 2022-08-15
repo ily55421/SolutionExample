@@ -81,7 +81,7 @@ class Queue(object):
         return self.q[self.head]
 
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def maxSlidingWindow(self, nums, k):
         """
         :type nums: List[int]

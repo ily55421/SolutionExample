@@ -123,4 +123,41 @@ class Solution200 {
         return count - blackNumber;
     }
 }
+
+/**
+ * 岛屿数量的第二种解法
+ */
+class Solution200_2{
+    public int numIslands(char[][] grid) {
+        int islandNum = 0;
+        for(int i = 0; i < grid.length; i++){
+            for(int j = 0; j < grid[0].length; j++){
+                // 只针对有效数组开始搜索
+                if(grid[i][j] == '1'){
+                    // 广度搜索优先 将所有查找过的 值 更改为 2
+                    // 避免重复计数
+                    infect(grid, i, j);
+                    islandNum++;
+                }
+            }
+        }
+        return islandNum;
+    }
+    //感染函数
+    public void infect(char[][] grid, int i, int j){
+        // i < 0 || i >= grid.length 超出取值范围
+        // j < 0 || j >= grid[0].length  超出取值范围
+        // grid[i][j] != '1'  是否是岛屿
+        if(i < 0 || i >= grid.length ||
+                j < 0 || j >= grid[0].length || grid[i][j] != '1'){
+            return;
+        }
+        grid[i][j] = '2';
+        infect(grid, i + 1, j);
+        infect(grid, i - 1, j);
+        infect(grid, i, j + 1);
+        infect(grid, i, j - 1);
+    }
+}
+
 // @lc code=end

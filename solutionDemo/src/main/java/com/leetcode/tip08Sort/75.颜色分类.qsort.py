@@ -72,7 +72,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def sortColors(self, A):
         def qsort(A, b, e):
             def swap(A, i, j):

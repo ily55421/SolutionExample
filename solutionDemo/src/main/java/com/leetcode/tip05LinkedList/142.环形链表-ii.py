@@ -77,7 +77,7 @@
 #         self.val = x
 #         self.next = None
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def detectCycle(self, head):
         """
         :type head: ListNode

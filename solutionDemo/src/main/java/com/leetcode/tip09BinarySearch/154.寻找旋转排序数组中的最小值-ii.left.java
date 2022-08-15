@@ -3,9 +3,9 @@
  *
  * [154] 寻找旋转排序数组中的最小值 II
  */
-
+package com.leetcode.tip09BinarySearch;
 // @lc code=start
-class Solution {
+class Solution154_l {
     public int findMin(int[] A) {
         final int N = A == null ? 0 : A.length;
         // 由于要使用A[r-1]

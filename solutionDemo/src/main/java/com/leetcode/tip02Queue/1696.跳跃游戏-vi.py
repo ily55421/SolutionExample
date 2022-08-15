@@ -60,7 +60,7 @@
 
 from collections import deque
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def maxResult(self, A, k):
         """
         :type nums: List[int]

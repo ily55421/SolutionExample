@@ -60,7 +60,7 @@ class Node(object):
         self.children = children
 """
 import Queue as queue
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def maxDepth(self, root):
         """
         :type root: Node

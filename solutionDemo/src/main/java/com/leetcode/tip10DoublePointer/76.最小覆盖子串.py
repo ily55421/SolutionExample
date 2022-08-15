@@ -47,7 +47,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def minWindow(self, s, t):
         N = 0 if not s else len(s)
         if not s or N == 0 or not t:

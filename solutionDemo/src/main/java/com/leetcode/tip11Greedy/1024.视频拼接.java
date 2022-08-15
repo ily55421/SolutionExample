@@ -77,10 +77,13 @@
  */
 
 // @lc code=start
+package com.leetcode.tip11Greedy;
 
+import java.util.Arrays;
+import java.util.Comparator;
 
 // @lc code=start
-class Solution {
+class Solution1024 {
     public int videoStitching(int[][] A, int T) {
         final int N = A == null ? 0 : A.length;
         if (T <= 0) {

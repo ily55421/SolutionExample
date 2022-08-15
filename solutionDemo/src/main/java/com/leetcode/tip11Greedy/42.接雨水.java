@@ -45,11 +45,36 @@
  * 
  * 
  */
+package com.leetcode.tip11Greedy;
+
+
 
 // @lc code=start
-class Solution {
-    public int trap(int[] height) {
+class Solution42 {
+   /*
+    def trap(self, height: List[int]) -> int:
+    ans = 0
+    h1 = 0
+    h2 = 0
+            for i in range(len(height)):
+    h1 = max(h1,height[i])
+    h2 = max(h2,height[-i-1])
+    ans = ans + h1 + h2 -height[i]
+            return  ans - len(height)*h1
+    */
 
+    public int trap(int[] height) {
+            int ans = 0;
+            int h1 = 0;
+            int h2 = 0;
+        for (int i = 0; i < height.length; i++) {
+            //
+            h1 = Math.max(h1, height[i]);
+            // 这里会抛出下标越界异常
+            h2 = Math.max(h2, height[-i - 1]);
+            ans += h1 + h2 - height[i];
+        }
+        return ans - height.length * h1;
     }
 }
 // @lc code=end

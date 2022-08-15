@@ -32,9 +32,10 @@
  * 假设你总是可以到达数组的最后一个位置。
  * 
  */
+package com.leetcode.tip11Greedy;
 
 // @lc code=start
-class Solution {
+class Solution45 {
     public int jump(int[] A) {
         final int N = A == null ? 0 : A.length;
 

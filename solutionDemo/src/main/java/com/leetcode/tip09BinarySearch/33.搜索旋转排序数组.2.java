@@ -1,4 +1,4 @@
-/*
+package com.leetcode.tip09BinarySearch;/*
  * @lc app=leetcode.cn id=33 lang=java
  *
  * [33] 搜索旋转排序数组
@@ -73,7 +73,7 @@
 //
 // 再进行二分
 
-class Solution {
+class Solution33 {
   // 一个数组经过旋转之后，可以分为左边与右边
   // 左边是一个升序
   // 右边也是一个升序

@@ -1,3 +1,4 @@
+package com.leetcode.tip11Greedy;
 /*
  * @lc app=leetcode.cn id=435 lang=java
  *
@@ -56,7 +57,11 @@
 
 // @lc code=start
 
-class Solution {
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+class Solution435_A22 {
   public int eraseOverlapIntervals(int[][] A) {
     final int N = A == null ? 0 : A.length;
 

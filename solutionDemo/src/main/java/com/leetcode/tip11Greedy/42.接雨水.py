@@ -47,7 +47,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def trap(self, height):
         """
         :type height: List[int]

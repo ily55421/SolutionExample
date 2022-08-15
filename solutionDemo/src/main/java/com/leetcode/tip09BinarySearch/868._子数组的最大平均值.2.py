@@ -53,7 +53,7 @@ Maximum average is (3+3)/2 = 6/2 = 3.00
 https://www.lintcode.com/problem/maximum-average-subarray/
 """
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
     # 求给定长度的子数组的最大和
     def maxSumInKLength(self, A, k):
         N = 0 if not A else len(A)

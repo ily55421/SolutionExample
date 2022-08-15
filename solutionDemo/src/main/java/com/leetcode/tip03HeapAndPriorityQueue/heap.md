@@ -306,7 +306,7 @@ Step 13.push(4)，堆中元素个数 &gt; k，需要执行 pop。<br>
 Step 14.pop 结束，最终得到最小的 k 个数 [1, 2, 3, 4]。</p>
 </blockquote>
 <p data-nodeid="327062">【<strong data-nodeid="327824">代码</strong>】接下来，就可以开始写代码了，也是时候亮出你真正的实力了。代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="327063"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+<pre class="lang-java" data-nodeid="327063"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">com.leetcode.tip22DS_.Solution</span> </span>{
 &nbsp; <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span>[] a = <span class="hljs-keyword">null</span>;
 &nbsp; <span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> n = <span class="hljs-number">0</span>;
 &nbsp; <span class="hljs-comment">// .. 这里省略了堆的四种操作的代码: 参考前面的实现</span>
@@ -349,7 +349,7 @@ Step 14.pop 结束，最终得到最小的 k 个数 [1, 2, 3, 4]。</p>
 <p data-nodeid="327067">【<strong data-nodeid="327847">小结</strong>】在这个并不算难的题目里，我们为了深入讲解优先级队列的原理，采用了一种“最费劲”的方式（自己写堆）来操作。</p>
 <p data-nodeid="327068">但实际上，<strong data-nodeid="327861">大部分语言都内置了堆的实现</strong>（<strong data-nodeid="327862">优先级队列</strong>）。<strong data-nodeid="327863">当你面试的时候，如果面试官没有明确提出要求你自己写堆，赶紧麻溜地用内置的优先级队列啊</strong>！</p>
 <p data-nodeid="327069">接下来，我们一起看看如何用语言内置的优先级队列来解决这个问题。代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="327070"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span>&nbsp;<span class="hljs-title">Solution</span>&nbsp;</span>{
+<pre class="lang-java" data-nodeid="327070"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span>&nbsp;<span class="hljs-title">com.leetcode.tip22DS_.Solution</span>&nbsp;</span>{
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">public</span>&nbsp;<span class="hljs-keyword">int</span>[]&nbsp;getLeastNumbers(<span class="hljs-keyword">int</span>[]&nbsp;arr,&nbsp;<span class="hljs-keyword">int</span>&nbsp;k)&nbsp;{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span>&nbsp;(k&nbsp;&lt;=&nbsp;<span class="hljs-number">0</span>&nbsp;||&nbsp;arr&nbsp;==&nbsp;<span class="hljs-keyword">null</span>&nbsp;||&nbsp;arr.length&nbsp;==&nbsp;<span class="hljs-number">0</span>)&nbsp;{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span>&nbsp;<span class="hljs-keyword">new</span>&nbsp;<span class="hljs-keyword">int</span>[<span class="hljs-number">0</span>];
@@ -492,7 +492,7 @@ Step 8. 小本子 {5, 10} 总和 = 15，大于砖头数 5，又没有梯子可�
 <p data-nodeid="327157">在我们学过的数据结构里面，满足这个 push/pop 特点的，应该就是<strong data-nodeid="328298">优先级队列</strong>啦。</p>
 <p data-nodeid="327158"><strong data-nodeid="328305">3. 边界</strong>：注意考虑给定数组为空的情况。</p>
 <p data-nodeid="327159">【<strong data-nodeid="328311">代码</strong>】到这里，可以开始写出代码了。具体代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="327160"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+<pre class="lang-java" data-nodeid="327160"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">com.leetcode.tip22DS_.Solution</span> </span>{
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">furthestBuilding</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] heights, <span class="hljs-keyword">int</span> bricks, <span class="hljs-keyword">int</span> ladders)</span> </span>{
         <span class="hljs-comment">// 注意处理非法输入</span>
         <span class="hljs-keyword">if</span> (heights == <span class="hljs-keyword">null</span> || heights.length == <span class="hljs-number">0</span>) {
@@ -611,7 +611,7 @@ Step 7. 发现无法开到位置 100 处，那么将最多的汽油 40 升加到
 <p data-nodeid="327213">（3）有些加油站的位置大于 target</p>
 <p data-nodeid="327214">在处理的时候，<strong data-nodeid="328550">可以将 target 也当成一个站。只不过这个站，并不提供汽油</strong>。这样处理起来更容易一些。</p>
 <p data-nodeid="327215">【<strong data-nodeid="328556">代码</strong>】通过了前面的分析，此时我们应该撸起袖子开始写代码了，代码如下（解析在注释里）：</p>
-<pre class="lang-java" data-nodeid="327216"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Solution</span> </span>{
+<pre class="lang-java" data-nodeid="327216"><code data-language="java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">com.leetcode.tip22DS_.Solution</span> </span>{
 &nbsp; <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">minRefuelStops</span><span class="hljs-params">(<span class="hljs-keyword">int</span> target, <span class="hljs-keyword">int</span> startFuel, <span class="hljs-keyword">int</span>[][] stations)</span> </span>{
 &nbsp; &nbsp; <span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> N = stations.length;
 &nbsp; &nbsp; <span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>;

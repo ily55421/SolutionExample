@@ -17,7 +17,7 @@
 # // https://www.acwing.com/problem/content/60/
 
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
     def __init__(self):
         self.s = ""
         self.left = -1

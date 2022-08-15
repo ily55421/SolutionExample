@@ -41,7 +41,7 @@
 #
 
 # @lc code=start
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def countSmaller(self, nums):
         """
         :type nums: List[int]

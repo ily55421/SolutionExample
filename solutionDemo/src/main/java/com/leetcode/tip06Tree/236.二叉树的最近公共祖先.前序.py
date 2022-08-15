@@ -57,7 +57,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def lowestCommonAncestor(self, root, p, q):
         """
         :type root: TreeNode

@@ -26,7 +26,7 @@
 # 
 # // 测试链接: https://www.lintcode.com/problem/maximum-size-subarray-sum-equals-k/leaderboard/
 
-class Solution:
+class com.leetcode.tip22DS_.Solution:
     """
     @param nums: an array
     @param k: a target value

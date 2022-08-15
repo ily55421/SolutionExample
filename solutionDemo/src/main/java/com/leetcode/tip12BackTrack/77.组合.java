@@ -1,4 +1,4 @@
-import java.awt.List;
+package com.leetcode.tip12BackTrack;
 
 /*
  * @lc app=leetcode.cn id=77 lang=java
@@ -32,8 +32,11 @@ import java.awt.List;
  * 
  */
 
+import java.util.ArrayList;
+import java.util.List;
+
 // @lc code=start
-class Solution {
+class Solution77 {
     private void append(List<Integer> box, List<List<Integer>> ans) {
         ans.add(new ArrayList<>());
         for (Integer x : box) {

@@ -68,9 +68,10 @@
  * 进阶：如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的 分治法 求解。
  *
  */
+package com.leetcode.tip10DoublePointer;
 
 // @lc code=start
-class Solution {
+class Solution53 {
   public int maxSubArray(int[] A) {
     final int N = A == null ? 0 : A.length;
     if (N <= 0) {

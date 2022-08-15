@@ -75,7 +75,7 @@
 #         self.val = x
 #         self.next = None
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def hasCycle(self, head):
         if not head or not head.next:
             return False

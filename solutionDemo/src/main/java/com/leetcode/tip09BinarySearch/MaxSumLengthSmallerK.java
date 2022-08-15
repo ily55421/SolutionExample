@@ -1,3 +1,4 @@
+package com.leetcode.tip09BinarySearch;
 class increaseQueue {
   private int head = 0;
   private int tail = 0;

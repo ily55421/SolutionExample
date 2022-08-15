@@ -3,10 +3,9 @@
 
 
 // https://nanti.jisuanke.com/t/T1260
-import java.io.*;
 import java.util.*;
 
-class Solution {
+class Solution1260 {
   private int count = 0;
   private int[] F = null;
 
@@ -44,7 +43,7 @@ class Solution {
   }
 }
 
-public class Main {
+public class T1260 {
   public static void main(String args[]) throws Exception {
     Scanner sc = new Scanner(System.in);
 
@@ -64,7 +63,7 @@ public class Main {
           conn[i][1] = sc.nextInt();
       }
         
-      Solution s = new Solution();
+    Solution1260 s = new Solution1260();
       int ans = s.findGangNumber(n, conn);
       ++testCase;
       System.out.println("Case " + testCase + ": " + ans);

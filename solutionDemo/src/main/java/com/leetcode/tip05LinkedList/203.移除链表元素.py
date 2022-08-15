@@ -29,7 +29,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def removeElements(self, head, val):
         dummy = ListNode()
         tail = dummy

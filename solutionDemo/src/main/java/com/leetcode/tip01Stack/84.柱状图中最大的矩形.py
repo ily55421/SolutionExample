@@ -100,7 +100,7 @@ class LeftSmall:
 
     return ans
 
-class Solution(object):
+class com.leetcode.tip22DS_.Solution(object):
     def largestRectangleArea(self, A):
         N = len(A) if A else 0
 

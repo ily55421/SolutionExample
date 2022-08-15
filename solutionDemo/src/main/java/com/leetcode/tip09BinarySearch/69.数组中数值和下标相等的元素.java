@@ -1,5 +1,6 @@
 // 测试平台: https://www.acwing.com/problem/content/65/
-class Solution {
+package com.leetcode.tip09BinarySearch;
+class Solution69_2 {
   private int getC(int[] A, int i) {
     final int v = A[i];
     if (v < i) {
